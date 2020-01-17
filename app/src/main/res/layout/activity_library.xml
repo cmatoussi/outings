@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".library">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/young_button"
+                android:layout_width="307dp"
+                android:layout_height="217dp"
+                android:layout_marginStart="68dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/young"
+                android:onClick="handleMatch"
+                android:text="@string/text_young"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp" />
+
+
+            <Button
+                android:id="@+id/hillyer_button"
+                android:layout_width="307dp"
+                android:layout_height="217dp"
+                android:layout_marginStart="68dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/hillyer"
+                android:onClick="handleMatch"
+                android:text="@string/text_hillyer"
+                android:textColor="#FFFFFF"
+
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/josten_button"
+                android:layout_width="303dp"
+                android:layout_height="217dp"
+                android:layout_marginStart="68dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/josten"
+                android:onClick="handleMatch"
+                android:text="@string/text_josten"
+                android:textColor="#FFFFFF"
+
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/forbes_sb"
+                android:layout_width="300dp"
+                android:layout_height="217dp"
+                android:layout_marginStart="68dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/forbes"
+                android:onClick="handleMatch"
+                android:text="@string/text_forbes"
+                android:textColor="#FFFFFF"
+
+                android:textSize="40sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".northampton">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="-113dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="268dp"
+                android:layout_height="217dp"
+                android:layout_marginStart="68dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/shellburne"
+                android:onClick="handleMatch"
+                android:text="Shelburne Falls"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp" />
+
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="268dp"
+                android:layout_height="217dp"
+                android:layout_marginStart="68dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/theroost"
+                android:onClick="handleMatch"
+                android:text="The roost"
+                android:textColor="#FFFFFF"
+
+                android:textSize="40sp" />
+
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="268dp"
+                android:layout_height="217dp"
+                android:layout_marginStart="68dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/dobra"
+                android:onClick="handleMatch"
+                android:text="Dobra Tea"
+                android:textColor="#FFFFFF"
+
+                android:textSize="40sp" />
+
+
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="268dp"
+                android:layout_height="217dp"
+                android:layout_marginStart="68dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/starbucks"
+                android:onClick="handleMatch"
+                android:text="Starbucks"
+                android:textColor="#FFFFFF"
+
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="268dp"
+                android:layout_height="217dp"
+                android:layout_marginStart="68dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/dunkin"
+                android:onClick="handleMatch"
+                android:text="Dunkin"
+                android:textColor="#FFFFFF"
+
+                android:textSize="40sp" />
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="268dp"
+                android:layout_height="217dp"
+                android:layout_marginStart="68dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/sharenorthampton"
+                android:onClick="handleMatch"
+                android:text="Share Northampton"
+                android:textColor="#FFFFFF"
+
+                android:textSize="40sp" />
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="268dp"
+                android:layout_height="217dp"
+                android:layout_marginStart="68dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/northamptoncoffee"
+                android:onClick="handleMatch"
+                android:text="Northampton Coffee"
+                android:textColor="#FFFFFF"
+
+                android:textSize="40sp" />
+
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="268dp"
+                android:layout_height="217dp"
+                android:layout_marginStart="68dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/woodstar"
+                android:onClick="handleMatch"
+                android:text="Woodstar Cafe"
+                android:textColor="#FFFFFF"
+
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="268dp"
+                android:layout_height="217dp"
+                android:layout_marginStart="68dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/iconica"
+                android:onClick="handleMatch"
+                android:text="Iconica Social Club"
+                android:textColor="#FFFFFF"
+
+                android:textSize="40sp" />
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="268dp"
+                android:layout_height="217dp"
+                android:layout_marginStart="68dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/yup"
+                android:onClick="handleMatch"
+                android:text="YUP Coffee Rosters"
+                android:textColor="#FFFFFF"
+
+                android:textSize="40sp" />
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="268dp"
+                android:layout_height="217dp"
+                android:layout_marginStart="68dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/haymarket"
+                android:onClick="handleMatch"
+                android:text="Haymarket Cafe"
+                android:textColor="#FFFFFF"
+
+                android:textSize="40sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
